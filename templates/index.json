@@ -9,50 +9,89 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_VnRqP4": {
+    "image_with_text_overlay_QY4nTw": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_C8kqPG": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_B9rCBg": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_hdAwFM": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_C8kqPG",
-        "heading_B9rCBg",
-        "richtext_hdAwFM"
-      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/avant_apres1.png",
         "mobile_image": "shopify://shop_images/avant_apres1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "logo_list_iP3nna": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_gMgFia": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_eh4nXY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_pYaCyk": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_RgwbgX": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_HXfnKG": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_gMgFia",
+        "logo_eh4nXY",
+        "logo_pYaCyk",
+        "logo_RgwbgX",
+        "logo_HXfnKG"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Logo list",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     }
   },
   "order": [
-    "image_with_text_overlay_VnRqP4"
+    "image_with_text_overlay_QY4nTw",
+    "logo_list_iP3nna"
   ]
 }
