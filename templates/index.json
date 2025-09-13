@@ -157,12 +157,117 @@
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
+    },
+    "featured_product_zXAzqt": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_WX3NJ4": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_6AJijq": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_4Hczen": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_X76Dng": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_PTR6NQ": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_gMHNj3": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_yg4gzT": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_GaVxUF": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_TbPYwh": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_iGwmA8": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_UAcypB": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_WX3NJ4",
+        "title_6AJijq",
+        "badges_4Hczen",
+        "price_X76Dng",
+        "rating_PTR6NQ",
+        "separator_gMHNj3",
+        "description_yg4gzT",
+        "variant_picker_GaVxUF",
+        "quantity_selector_TbPYwh",
+        "buy_buttons_iGwmA8",
+        "pickup_availability_UAcypB"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "dary-ross-recupere-ta-hairline",
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_QY4nTw",
     "logo_list_iP3nna",
     "image_with_text_overlay_dAaQnW",
-    "testimonials_XLhfxD"
+    "testimonials_XLhfxD",
+    "featured_product_zXAzqt"
   ]
 }
