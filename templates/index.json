@@ -98,6 +98,81 @@
         "overlay_opacity": 0
       }
     },
+    "text_with_icons_AL4hjf": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_YxBkkq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-pin",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_RcgefT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_PU7VXz": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        },
+        "item_7496ip": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Heading",
+            "content": "<p>Short content about your store</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_YxBkkq",
+        "item_RcgefT",
+        "item_PU7VXz",
+        "item_7496ip"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_Y6RwfW": {
       "type": "multi-column",
       "blocks": {
@@ -286,13 +361,140 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "faq_FC7Tqp": {
+      "type": "faq",
+      "blocks": {
+        "item_KkEdTN": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps faut-il pour voir les premiers résultats ?",
+            "content": "<p>La plupart des utilisateurs observent une réduction de la chute de cheveux dès les <strong>3-4 premières semaines</strong>. Pour la repousse visible, comptez <strong>8 à 12 semaines</strong> d'utilisation <strong>régulière.</strong></p>"
+          }
+        },
+        "item_V6Warc": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit convient-il à tous les types de cheveux ?",
+            "content": "<p>Oui, notre formule est adaptée à tous les types de cheveux (fins, épais, bouclés, lisses) et à tous les types de cuir chevelu, même sensible.</p>"
+          }
+        },
+        "item_qMJwtg": {
+          "type": "item",
+          "settings": {
+            "title": "À quelle fréquence dois-je l'utiliser ?",
+            "content": "<p>Appliquez le produit une fois par jour, de préférence le soir sur cuir chevelu sec. Une application régulière est essentielle pour obtenir des résultats optimaux.</p>"
+          }
+        },
+        "item_g7fAkW": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je utiliser d'autres produits capillaires en même temps ?",
+            "content": "<p>Absolument. Notre traitement est compatible avec vos shampoings, après-shampoings et produits coiffants habituels. Appliquez-le toujours sur cuir chevelu propre et sec.</p>"
+          }
+        },
+        "item_aiWiPn": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il des effets secondaires ?",
+            "content": "<p>Notre formule naturelle est bien tolérée. Contrairement au minoxidil, elle ne provoque pas d'irritations ou de démangeaisons. En cas de sensibilité, cessez l'utilisation.</p>"
+          }
+        },
+        "item_EqMrjQ": {
+          "type": "item",
+          "settings": {
+            "title": "Que se passe-t-il si j'arrête le traitement ?",
+            "content": "<p>Les bénéfices se maintiennent généralement 2-3 mois après l'arrêt. Pour des résultats durables, nous recommandons un usage continu ou cyclique selon vos besoins.</p>"
+          }
+        },
+        "item_Ga3yi6": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit fonctionne-t-il sur les zones complètement chauves ?",
+            "content": "<p>Il est plus efficace sur les zones avec un duvet ou des cheveux fins. Pour les zones totalement glabres depuis plusieurs années, les résultats peuvent être limités.</p>"
+          }
+        },
+        "item_iNLYb3": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je l'utiliser si j'ai des pellicules ou des problèmes de cuir chevelu ?",
+            "content": "<p>Oui, notre formule n'aggrave pas ces conditions. Cependant, traitez d'abord votre problème de cuir chevelu avec un dermatologue si nécessaire.</p>"
+          }
+        },
+        "item_99KqHL": {
+          "type": "item",
+          "settings": {
+            "title": "Comment conserver le produit ?",
+            "content": "<p>Stockez le roll-on à température ambiante, à l'abri de la lumière directe et de l'humidité. N'exposez pas aux températures extrêmes.</p>"
+          }
+        },
+        "item_eJGUNz": {
+          "type": "item",
+          "settings": {
+            "title": "Le produit laisse-t-il des résidus ou rend-il les cheveux gras ?",
+            "content": "<p>Non, sa formule légère pénètre rapidement sans laisser de film gras ou de résidus. Vos cheveux restent naturels au toucher.</p>"
+          }
+        },
+        "item_kD6kzY": {
+          "type": "item",
+          "settings": {
+            "title": "Que faire si Dary Ross ne convient pas a mes attentes ?",
+            "content": "<p>Nous offrons une garantie satisfait ou remboursé de 90 jours. Si vous n'êtes pas satisfait des résultats, retournez le produit pour un remboursement intégral, sans questions.</p>"
+          }
+        },
+        "item_8mib7w": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je l'utiliser pendant la grossesse ou l'allaitement ?",
+            "content": "<p>Bien que notre formule soit naturelle, consultez votre médecin avant utilisation pendant la grossesse ou l'allaitement par précaution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KkEdTN",
+        "item_V6Warc",
+        "item_qMJwtg",
+        "item_g7fAkW",
+        "item_aiWiPn",
+        "item_EqMrjQ",
+        "item_Ga3yi6",
+        "item_iNLYb3",
+        "item_99KqHL",
+        "item_eJGUNz",
+        "item_kD6kzY",
+        "item_8mib7w"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_QY4nTw",
     "logo_list_iP3nna",
     "image_with_text_overlay_dAaQnW",
+    "text_with_icons_AL4hjf",
     "multi_column_Y6RwfW",
-    "featured_product_zXAzqt"
+    "featured_product_zXAzqt",
+    "faq_FC7Tqp"
   ]
 }
