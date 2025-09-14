@@ -185,7 +185,7 @@
           "settings": {
             "text": "Chute freinée et repousse activée, en un seul geste",
             "heading_tag": "h4",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "gradient": ""
           }
         }
@@ -198,9 +198,9 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#005792",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#000000"
       }
     },
     "video_keNdek": {
@@ -209,29 +209,36 @@
         "play_hL66A8": {
           "type": "play",
           "settings": {}
-        },
-        "heading_EQmbwk": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
         }
       },
       "block_order": [
-        "play_hL66A8",
-        "heading_EQmbwk"
+        "play_hL66A8"
       ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "auto",
+        "video": "shopify://files/videos/gif-dary-ross.mp4",
+        "mobile_video": "shopify://files/videos/gif-dary-ross.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_LafTjC": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"tp-reviews-3lines\" role=\"region\" aria-label=\"Avis clients\">\n  <style>\n    .tp-reviews-3lines{\n      background:#fff;color:#1A1A1A;font:14px \"Barlow\",sans-serif;\n      padding:45px 24px 0;text-align:center\n    }\n    .tp-reviews-3lines *{box-sizing:border-box}\n    .tp-reviews-3lines .tp-line{display:block}\n\n    /* LIGNE 1 — Titre sur une seule ligne */\n    .tp-title{\n      font-weight:800;line-height:1.2;margin:0 0 10px;\n      font-size:clamp(20px,4.5vw,32px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis\n    }\n\n    /* LIGNE 2 — Note + étoiles (5 SVG séparés) */\n    .tp-rating{\n      display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 8px\n    }\n    .tp-word{font-weight:700}\n    .tp-score{font-weight:800;font-size:clamp(16px,4vw,20px)}\n    .tp-sep{font-weight:800}\n    .tp-stars{display:inline-flex;gap:4px}\n    .tp-star{width:clamp(20px,6vw,24px);height:clamp(20px,6vw,24px)}\n\n    /* LIGNE 3 — Baseline */\n    .tp-under{color:#515151;margin:6px 0 0;font-size:15px}\n    .tp-under strong{font-weight:800}\n  </style>\n\n  <!-- LIGNE 1 -->\n  <h2 class=\"tp-line tp-title\">Nos clients en parlent le mieux</h2>\n\n  <!-- LIGNE 2 -->\n  <div class=\"tp-line tp-rating\" aria-label=\"Note moyenne 4,7 sur 5\">\n    <span class=\"tp-word\">Excellent</span>\n    <span class=\"tp-score\">4.7</span>\n    <span class=\"tp-sep\">/ 5</span>\n\n    <div class=\"tp-stars\" aria-hidden=\"true\">\n      {% for i in (1..5) %}\n        <span class=\"tp-star\">\n          <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect width=\"32\" height=\"32\" fill=\"#00B67A\"/>\n            <path d=\"M9.203 27L16 21.807 22.797 27 20.202 18.596 27 13.403h-8.402L16 5l-2.597 8.403H5l6.798 5.193L9.203 27z\" fill=\"#fff\"/>\n          </svg>\n        </span>\n      {% endfor %}\n    </div>\n  </div>\n\n  <!-- LIGNE 3 -->\n  <p class=\"tp-line tp-under\">basé sur +<strong>1 762</strong> avis</p>\n</section>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multi_column_Y6RwfW": {
@@ -331,7 +338,7 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "Nos clients en parlent le mieux",
+        "title": "",
         "content": "",
         "background": "#ffffff",
         "background_gradient": "",
@@ -556,6 +563,7 @@
     "text_with_icons_AL4hjf",
     "rich_text_4tXr3i",
     "video_keNdek",
+    "custom_liquid_LafTjC",
     "multi_column_Y6RwfW",
     "featured_product_zXAzqt",
     "faq_FC7Tqp"
