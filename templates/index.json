@@ -486,9 +486,22 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_14_sept._2025_19_51_53.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "3% Extrait de romarin",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Favorise un cuir chevelu plus sain et aide à maintenir des cheveux plus volumineux là où ils s'éclaircissent, en particulier autour de la racine des cheveux et de la couronne.<br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CWnVVh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_14_sept._2025_20_30_25.png",
+            "column_size": "3",
+            "title": "3% Redensyl®",
+            "heading_tag": "h4",
+            "content": "<p>Étudié pour sa capacité à soutenir la densité des cheveux et à réduire l'amincissement visible en maintenant les follicules dans un état propice à la croissance.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -499,9 +512,9 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_14_sept._2025_19_52_23.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "2% Anagain™",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Aide à équilibrer le cycle de croissance des cheveux et à réduire la chute quotidienne des cheveux : moins de mèches dans vos mains, votre brosse ou votre lavabo.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -512,21 +525,9 @@
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_14_sept._2025_19_52_26.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "2% Aminexil™",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_CWnVVh": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Connu pour favoriser la densité et la circulation du cuir chevelu, il donne à vos cheveux une base plus solide pour faire pousser des mèches plus épaisses et plus saines.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -535,9 +536,9 @@
       },
       "block_order": [
         "item_h3VTte",
+        "item_CWnVVh",
         "item_rbHKwR",
-        "item_tBrMFj",
-        "item_CWnVVh"
+        "item_tBrMFj"
       ],
       "name": "Multi-column",
       "settings": {
