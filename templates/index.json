@@ -177,6 +177,63 @@
         "text_color": ""
       }
     },
+    "rich_text_4tXr3i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ENFBXY": {
+          "type": "heading",
+          "settings": {
+            "text": "Chute freinée et repousse activée, en un seul geste",
+            "heading_tag": "h4",
+            "text_color": "#ffffff",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ENFBXY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#005792",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_keNdek": {
+      "type": "video",
+      "blocks": {
+        "play_hL66A8": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_EQmbwk": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_hL66A8",
+        "heading_EQmbwk"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "multi_column_Y6RwfW": {
       "type": "multi-column",
       "blocks": {
@@ -497,6 +554,8 @@
     "logo_list_iP3nna",
     "image_with_text_overlay_dAaQnW",
     "text_with_icons_AL4hjf",
+    "rich_text_4tXr3i",
+    "video_keNdek",
     "multi_column_Y6RwfW",
     "featured_product_zXAzqt",
     "faq_FC7Tqp"
