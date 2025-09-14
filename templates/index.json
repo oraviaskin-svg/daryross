@@ -32,6 +32,7 @@
         "logo_gMgFia": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/23_bc8436d8-990e-411f-986c-e40a9582a28d.png",
             "logo_width": 120,
             "link": ""
           }
@@ -39,6 +40,7 @@
         "logo_eh4nXY": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/22_c0c6a75a-5146-47dc-8581-c8cecd4cd41d.png",
             "logo_width": 120,
             "link": ""
           }
@@ -46,6 +48,7 @@
         "logo_pYaCyk": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/21_f1cb3c95-a871-4db6-b966-5909442e3732.png",
             "logo_width": 120,
             "link": ""
           }
@@ -53,7 +56,8 @@
         "logo_RgwbgX": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/24_895d79e9-65ad-45fc-8928-a2ec2b8775da.png",
+            "logo_width": 130,
             "link": ""
           }
         }
