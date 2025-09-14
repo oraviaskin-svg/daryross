@@ -436,16 +436,16 @@
         "tab_9B7CeV": {
           "type": "tab",
           "settings": {
-            "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
+            "title": "Comment l'utiliser ?",
+            "content": "<p>• Nettoyez et séchez votre cuir chevelu.</p><ul><li>Appliquez le roll-on directement sur les zones clairsemées (racines, tempes, sommet du crâne...).</li><li>Massez doucement du bout des doigts pour faire pénétrer.</li><li>Utilisez 2 à 3 fois par jour, matin et soir.</li><li>Continuez l'application même après les premiers résultats pour une repousse optimale.**</li></ul><p><strong>✨ Astuce : appliquez juste après la douche sur cheveux légèrement humides pour maximiser l'absorption et l'efficacité.</strong></p>",
             "page": ""
           }
         },
         "tab_FU9t8c": {
           "type": "tab",
           "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Description",
+            "content": "<h3>Sérum Roll on Dary Ross®</h3><p>Un soin intensif, conçu pour <strong>stimuler la repousse</strong> et <strong>ralentir la chute</strong> des cheveux.</p><p>Sa texture légère et non grasse pénètre rapidement jusqu’aux racines pour une action ciblée et durable.</p><p>Formule premium enrichie en <strong>Redensyl®, Aminexil®, Anagain® et extrait de romarin</strong> – 100% vegan, sans parabènes, sans parfum et cruelty-free.</p><p>🔹 Déconseillé aux enfants de moins de 12 ans.</p>",
             "page": ""
           }
         },
@@ -653,7 +653,7 @@
           "settings": {
             "product": "dary-ross-recupere-ta-hairline",
             "title_text": "",
-            "title_font_tag": "h1",
+            "title_font_tag": "h2",
             "section_background_color": ""
           }
         }
