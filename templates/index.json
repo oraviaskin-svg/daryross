@@ -478,6 +478,155 @@
         "heading_gradient": ""
       }
     },
+    "multi_column_gid4g8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_h3VTte": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rbHKwR": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tBrMFj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_h3VTte",
+        "item_rbHKwR",
+        "item_tBrMFj"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "how_to_use_nWJHtP": {
+      "type": "how-to-use",
+      "blocks": {
+        "step_MHKGMQ": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/2_e91ff4eb-9e29-4bcb-b28c-9cf98e678a61.png",
+            "title": "Semaine 1: Vous remarquez moins de perte de cheveux",
+            "description": "Quand vous vous lavez les cheveux, il n'en tombe presque plus dans vos mains. Votre brosse reste propre. Et cette inquiétude dans votre ventre ? Elle disparaît petit à petit.",
+            "alignment": "left"
+          }
+        },
+        "step_MNMT8a": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/1_b0fca55c-60cd-4491-bd2f-33dae340898d.png",
+            "title": "Semaine 3: Les premiers cheveux de bébé commencent à apparaître",
+            "description": "Des petits cheveux noirs apparaissent là où il n'y avait plus rien. Cette zone dégagée sur le dessus ? Elle se remplit doucement. Vous vérifiez tous les jours - parce que ça marche vraiment.",
+            "alignment": "left"
+          }
+        },
+        "step_7ceeha": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_22_036794fc-e5f1-46b6-b632-73eeac0a037f.png",
+            "title": "Semaine 6: Les gens commence à remarquer",
+            "description": "Tes cheveux ont l'air plus épais ! » Vous rangez définitivement vos casquettes. Et cette photo de profil ? Enfin renouvelée après des mois à la repousser.",
+            "alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "step_MHKGMQ",
+        "step_MNMT8a",
+        "step_7ceeha"
+      ],
+      "name": "How to Use",
+      "settings": {}
+    },
+    "rich_text_cU4XCA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6x33K8": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Dary Ross",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6x33K8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17578679700719d618": {
+      "type": "apps",
+      "blocks": {
+        "pretty_comparison_tables_table_j8VjTi": {
+          "type": "shopify://apps/pretty-comparison-tables/blocks/table/4ce14980-e26b-4398-92cd-f582d95d4f05",
+          "settings": {
+            "product": "dary-ross-recupere-ta-hairline",
+            "title_text": "",
+            "title_font_tag": "h1",
+            "section_background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "pretty_comparison_tables_table_j8VjTi"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq_FC7Tqp": {
       "type": "faq",
       "blocks": {
@@ -615,6 +764,10 @@
     "multi_column_Y6RwfW",
     "featured_product_zXAzqt",
     "tabs_mM6bre",
+    "multi_column_gid4g8",
+    "how_to_use_nWJHtP",
+    "rich_text_cU4XCA",
+    "17578679700719d618",
     "faq_FC7Tqp"
   ]
 }
