@@ -537,6 +537,32 @@
         "text_color": ""
       }
     },
+    "rich_text_AkyGHd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pjwXA3": {
+          "type": "heading",
+          "settings": {
+            "text": "Ce que nos clients remarque les 6 premières semaines",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_pjwXA3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "how_to_use_nWJHtP": {
       "type": "how-to-use",
       "blocks": {
@@ -765,6 +791,7 @@
     "featured_product_zXAzqt",
     "tabs_mM6bre",
     "multi_column_gid4g8",
+    "rich_text_AkyGHd",
     "how_to_use_nWJHtP",
     "rich_text_cU4XCA",
     "17578679700719d618",
