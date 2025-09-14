@@ -275,9 +275,9 @@
           "settings": {
             "image": "shopify://shop_images/24.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Sébastien,P",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>J'ai tout essayé : huiles, shampoings, gommes. Rien n'a jamais vraiment fait de différence. Reclaim est la première chose qui m'a donné des résultats visibles. Ça fait désormais partie de ma routine, comme me brosser les dents.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -288,9 +288,9 @@
           "settings": {
             "image": "shopify://shop_images/22.png",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Marc.L",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p> Mon coiffeur m'a signalé une perte de cheveux au niveau du crâne. J'ai paniqué. Un ami m'a parlé de Reclaim et je suis content de l'avoir écouté : après quatre semaines, je vois une repousse là où je pensais que c'était fini.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
