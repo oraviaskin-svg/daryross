@@ -1,3 +1,114 @@
+<section class="apaisement-3-gestes">
+  <div class="container">
+    <h2 class="title">{{ section.settings.title }}</h2>
+    <p class="subtitle">{{ section.settings.subtitle }}</p>
+
+    <div class="steps">
+      {% for block in section.blocks %}
+        <div class="step">
+          <div class="step-image">
+            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="Étape {{ block.settings.step_number }}">
+            <span class="step-number">{{ block.settings.step_number }}</span>
+          </div>
+          <div class="step-content">
+            <h3>{{ block.settings.step_title }}</h3>
+            <p>{{ block.settings.step_text }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.apaisement-3-gestes {
+  background:#f7f7f7;
+  padding:50px 20px;
+  text-align:center;
+}
+
+.apaisement-3-gestes .title {
+  font-size:1.8rem;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.apaisement-3-gestes .subtitle {
+  font-size:1rem;
+  color:#555;
+  margin-bottom:40px;
+}
+
+.apaisement-3-gestes .steps {
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  max-width:700px;
+  margin:0 auto;
+}
+
+.apaisement-3-gestes .step {
+  background:#fff;
+  border-radius:12px;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  gap:20px;
+  text-align:left;
+  box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.apaisement-3-gestes .step-image {
+  position:relative;
+  flex-shrink:0;
+}
+
+.apaisement-3-gestes .step-image img {
+  border-radius:50%;
+  width:80px;
+  height:80px;
+  object-fit:cover;
+}
+
+.apaisement-3-gestes .step-number {
+  position:absolute;
+  top:-8px;
+  left:-8px;
+  background:#005792;
+  color:#fff;
+  font-weight:700;
+  border-radius:50%;
+  width:28px;
+  height:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:0.9rem;
+}
+
+.apaisement-3-gestes .step-content h3 {
+  font-size:1rem;
+  margin:0 0 8px;
+  font-weight:600;
+}
+
+.apaisement-3-gestes .step-content p {
+  font-size:0.95rem;
+  margin:0;
+  color:#444;
+}
+
+@media (max-width:768px) {
+  .apaisement-3-gestes .step {
+    flex-direction:column;
+    text-align:center;
+  }
+  .apaisement-3-gestes .step-content {
+    text-align:center;
+  }
+}
+</style>
+
 {% schema %}
 {
   "name": "Apaisement 3 gestes",
@@ -12,8 +123,8 @@
       "settings": [
         { "type": "image_picker", "id": "image", "label": "Image" },
         { "type": "text", "id": "step_number", "label": "Numéro", "default": "1" },
-        { "type": "text", "id": "step_title", "label": "Titre de l’étape" },
-        { "type": "textarea", "id": "step_text", "label": "Texte de l’étape" }
+        { "type": "text", "id": "step_title", "label": "Titre de l’étape", "default": "Lavez et séchez délicatement" },
+        { "type": "textarea", "id": "step_text", "label": "Texte de l’étape", "default": "Lavez et séchez la zone concernée avec une serviette propre." }
       ]
     }
   ],
@@ -25,33 +136,3 @@
   ]
 }
 {% endschema %}
-
-<section class="apaisement-3-gestes">
-  <div class="container">
-    <h2>{{ section.settings.title }}</h2>
-    <p>{{ section.settings.subtitle }}</p>
-    <div class="steps">
-      {% for block in section.blocks %}
-        <div class="step">
-          <div class="step-image">
-            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="">
-          </div>
-          <div class="step-content">
-            <span class="step-number">{{ block.settings.step_number }}</span>
-            <h3>{{ block.settings.step_title }}</h3>
-            <p>{{ block.settings.step_text }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<style>
-.apaisement-3-gestes {text-align:center; padding:50px 20px;}
-.apaisement-3-gestes .steps {display:flex; flex-direction:column; gap:30px;}
-.apaisement-3-gestes .step {display:flex; align-items:center; gap:20px; text-align:left;}
-.apaisement-3-gestes .step-image img {border-radius:50%; width:80px; height:80px; object-fit:cover;}
-.apaisement-3-gestes .step-number {font-size:20px; font-weight:bold; display:inline-block; margin-bottom:5px;}
-</style>
-
