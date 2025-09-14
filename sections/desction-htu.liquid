@@ -1,0 +1,57 @@
+{% schema %}
+{
+  "name": "Apaisement 3 gestes",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Titre", "default": "Apaisement immédiat en 3 gestes" },
+    { "type": "text", "id": "subtitle", "label": "Sous-titre", "default": "Les dermatologues recommandent une utilisation quotidienne pour des résultats optimaux." }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Étape",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "step_number", "label": "Numéro", "default": "1" },
+        { "type": "text", "id": "step_title", "label": "Titre de l’étape" },
+        { "type": "textarea", "id": "step_text", "label": "Texte de l’étape" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Apaisement 3 gestes",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="apaisement-3-gestes">
+  <div class="container">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.subtitle }}</p>
+    <div class="steps">
+      {% for block in section.blocks %}
+        <div class="step">
+          <div class="step-image">
+            <img src="{{ block.settings.image | img_url: '300x300' }}" alt="">
+          </div>
+          <div class="step-content">
+            <span class="step-number">{{ block.settings.step_number }}</span>
+            <h3>{{ block.settings.step_title }}</h3>
+            <p>{{ block.settings.step_text }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.apaisement-3-gestes {text-align:center; padding:50px 20px;}
+.apaisement-3-gestes .steps {display:flex; flex-direction:column; gap:30px;}
+.apaisement-3-gestes .step {display:flex; align-items:center; gap:20px; text-align:left;}
+.apaisement-3-gestes .step-image img {border-radius:50%; width:80px; height:80px; object-fit:cover;}
+.apaisement-3-gestes .step-number {font-size:20px; font-weight:bold; display:inline-block; margin-bottom:5px;}
+</style>
+
