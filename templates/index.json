@@ -364,6 +364,7 @@
         },
         "price_X76Dng": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -377,6 +378,12 @@
         "separator_gMHNj3": {
           "type": "separator",
           "settings": {}
+        },
+        "kaching_bundles_app_block_WRUDzb": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
         },
         "variant_picker_GaVxUF": {
           "type": "variant_picker",
@@ -411,6 +418,7 @@
         "price_X76Dng",
         "rating_PTR6NQ",
         "separator_gMHNj3",
+        "kaching_bundles_app_block_WRUDzb",
         "variant_picker_GaVxUF",
         "buy_buttons_iGwmA8",
         "pickup_availability_UAcypB"
