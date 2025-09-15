@@ -479,6 +479,110 @@
         "input_text_color": ""
       }
     },
+    "multi_column_dXfYQh": {
+      "type": "multi-column",
+      "blocks": {
+        "item_zqBVkP": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/89d08c33182744e380e0056173706d96.HD-1080p-2.5Mbps-54113421.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_XGkcHW": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/b459977953bf4a1e9856515bd29e5c92.HD-1080p-2.5Mbps-54113323.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MpHCDx": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/f5e73c8fe9c24a34b9a3c6a8a9e49106.HD-1080p-2.5Mbps-54112907.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mYMhcM": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/89974bd7072f4ce28f84b31c3d67659b.HD-1080p-2.5Mbps-54112673.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UaW4GF": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/4026bec65ebf4240b9b009382f4e77b4.HD-1080p-2.5Mbps-54113160.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4z4yeW": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/80283d12fcc54f62818557a2897c699e.HD-1080p-2.5Mbps-54112483.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_zqBVkP",
+        "item_XGkcHW",
+        "item_MpHCDx",
+        "item_mYMhcM",
+        "item_UaW4GF",
+        "item_4z4yeW"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Notre  produit  en action",
+        "content": "",
+        "background": "#005792",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
     "tabs_mM6bre": {
       "type": "tabs",
       "blocks": {
@@ -876,6 +980,7 @@
     "custom_liquid_LafTjC",
     "multi_column_Y6RwfW",
     "featured_product_zXAzqt",
+    "multi_column_dXfYQh",
     "tabs_mM6bre",
     "multi_column_gid4g8",
     "rich_text_AkyGHd",
