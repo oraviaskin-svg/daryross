@@ -444,10 +444,6 @@
             "alignment": "center",
             "max_width": 500
           }
-        },
-        "pickup_availability_UAcypB": {
-          "type": "pickup_availability",
-          "settings": {}
         }
       },
       "block_order": [
@@ -464,8 +460,7 @@
         "liquid_AiXCVt",
         "buy_buttons_iGwmA8",
         "liquid_Hyfqap",
-        "image_pd3y3z",
-        "pickup_availability_UAcypB"
+        "image_pd3y3z"
       ],
       "name": "Featured product",
       "settings": {
@@ -484,6 +479,54 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "tabs_mM6bre": {
+      "type": "tabs",
+      "blocks": {
+        "tab_9B7CeV": {
+          "type": "tab",
+          "settings": {
+            "title": "Comment l'utiliser ?",
+            "content": "<p>• Nettoyez et séchez votre cuir chevelu.</p><ul><li>Appliquez le roll-on directement sur les zones clairsemées (racines, tempes, sommet du crâne...).</li><li>Massez doucement du bout des doigts pour faire pénétrer.</li><li>Utilisez 2 à 3 fois par jour, matin et soir.</li><li>Continuez l'application même après les premiers résultats pour une repousse optimale.**</li></ul><p><strong>✨ Astuce : appliquez juste après la douche sur cheveux légèrement humides pour maximiser l'absorption et l'efficacité.</strong></p>",
+            "page": ""
+          }
+        },
+        "tab_FU9t8c": {
+          "type": "tab",
+          "settings": {
+            "title": "Description",
+            "content": "<h3>Sérum Roll on Dary Ross®</h3><p>Un soin intensif, conçu pour <strong>stimuler la repousse</strong> et <strong>ralentir la chute</strong> des cheveux.</p><p>Sa texture légère et non grasse pénètre rapidement jusqu’aux racines pour une action ciblée et durable.</p><p>Formule premium enrichie en <strong>Redensyl®, Aminexil®, Anagain® et extrait de romarin</strong> – 100% vegan, sans parabènes, sans parfum et cruelty-free.</p><p>🔹 Déconseillé aux enfants de moins de 12 ans.</p>",
+            "page": ""
+          }
+        },
+        "tab_3pd8dU": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison & Garantie",
+            "content": "<p>•<strong>Expédition en 24h</strong></p><p>•<strong>Livraison rapide selon stock</strong></p><p>•<strong>90 jours : satisfait ou remboursé intégralement</strong></p><p>Essayez sans risque, même si la cure est entamée.<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_9B7CeV",
+        "tab_FU9t8c",
+        "tab_3pd8dU"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "multi_column_dXfYQh": {
@@ -588,54 +631,6 @@
         "background": "#005792",
         "background_gradient": "",
         "text_color": "#ffffff"
-      }
-    },
-    "tabs_mM6bre": {
-      "type": "tabs",
-      "blocks": {
-        "tab_9B7CeV": {
-          "type": "tab",
-          "settings": {
-            "title": "Comment l'utiliser ?",
-            "content": "<p>• Nettoyez et séchez votre cuir chevelu.</p><ul><li>Appliquez le roll-on directement sur les zones clairsemées (racines, tempes, sommet du crâne...).</li><li>Massez doucement du bout des doigts pour faire pénétrer.</li><li>Utilisez 2 à 3 fois par jour, matin et soir.</li><li>Continuez l'application même après les premiers résultats pour une repousse optimale.**</li></ul><p><strong>✨ Astuce : appliquez juste après la douche sur cheveux légèrement humides pour maximiser l'absorption et l'efficacité.</strong></p>",
-            "page": ""
-          }
-        },
-        "tab_FU9t8c": {
-          "type": "tab",
-          "settings": {
-            "title": "Description",
-            "content": "<h3>Sérum Roll on Dary Ross®</h3><p>Un soin intensif, conçu pour <strong>stimuler la repousse</strong> et <strong>ralentir la chute</strong> des cheveux.</p><p>Sa texture légère et non grasse pénètre rapidement jusqu’aux racines pour une action ciblée et durable.</p><p>Formule premium enrichie en <strong>Redensyl®, Aminexil®, Anagain® et extrait de romarin</strong> – 100% vegan, sans parabènes, sans parfum et cruelty-free.</p><p>🔹 Déconseillé aux enfants de moins de 12 ans.</p>",
-            "page": ""
-          }
-        },
-        "tab_3pd8dU": {
-          "type": "tab",
-          "settings": {
-            "title": "Livraison & Garantie",
-            "content": "<p>•<strong>Expédition en 24h</strong></p><p>•<strong>Livraison rapide selon stock</strong></p><p>•<strong>90 jours : satisfait ou remboursé intégralement</strong></p><p>Essayez sans risque, même si la cure est entamée.<br/><br/></p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_9B7CeV",
-        "tab_FU9t8c",
-        "tab_3pd8dU"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "multi_column_gid4g8": {
