@@ -14,15 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Inscrivez-vous aux nouveautés et offres exclusives",
-            "content": ""
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -41,7 +32,6 @@
         }
       },
       "block_order": [
-        "newsletter",
         "links",
         "text"
       ],
